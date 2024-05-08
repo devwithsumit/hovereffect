@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --blue : rgb(251, 180, 48);
+    --light-blue : rgb(233, 215, 78);
+}
+.overlay{
+    background: linear-gradient(
+    to right,
+    transparent ,
+    var(--blue) var(--light-blue-percent),
+    var(--light-blue));
+}
